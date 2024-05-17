@@ -1,0 +1,83 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+  }
+
+  .form1{
+    height: 90vh; 
+    /* padding: 11em 0;  */
+    width: 100vw;
+    background-color: rgba(52, 9, 120, 0.799);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box1{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+  }
+  .login1 {
+    /* position: absolute; */
+    width: 30vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  @media screen and (max-width:1000px) {
+    .login1{
+        width: 70vw;
+    }
+  }
+  .login1 h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #fffdfd;
+  }
+  .login1 .inputBx {
+    position: relative;
+    width: 100%;
+  }
+  .login1 .inputBx input {
+    /* position: relative; */
+    width: 100%;
+    padding: 12px 20px;
+    background: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 40px;
+    font-size: 1em;
+    color: #ffffff;
+    box-shadow: none;
+    outline: none;
+  }
+  .login1 .inputBx input[type="submit"] {
+    width: 100%;
+    background: #0078ff;
+    background: linear-gradient(45deg, #ff357a, #fff172);
+    border: none;
+    cursor: pointer;
+  }
+  .login1 .inputBx input::placeholder {
+    color: rgba(252, 249, 249, 0.75);
+  }
+  .login1 .links {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  .login1 .links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
